@@ -1,0 +1,157 @@
+#body{
+margin:auto;
+background-color:#d8e3e7;
+width:500px;
+}
+#content{
+padding-top:15px;
+width:470px;
+}
+#top{
+margin-left:15px;
+width:470px;
+background:linear-gradient(#3291d3,#216393);
+}
+#top .left{
+padding-left:20px;
+float:left
+}
+#top .right{
+float:right;
+margin:50px 15px 0px 0px;
+}
+#top .right ul{
+margin:0;
+padding:0;
+
+}
+.clear{
+clear:both;
+}
+
+#top h2{
+color:#fff;
+margin-bottom:2px;
+}
+#top p{
+
+margin-top:0px;
+color:#90d5f4;
+}
+
+#top  li{
+
+float:left;
+color:#fff;
+list-style:none;
+}
+#top  a{
+color:#fff;
+text-decoration:none;
+padding:5px 15px;
+}
+#top  a:hover{
+background-color:#508ebf;
+border-radius:15px;
+border:1px solid #2872a1;
+}
+#middle{
+background-color:#fff;
+width:470px;
+margin-left:15px;
+}
+#middle p{
+padding-top:15px;
+margin-top:0px;
+margin-bottom:10px;
+margin-left:20px;
+font-size:150%;
+}
+#middle a{
+ text-decoration:none;
+color:#3191c4;
+}
+#middle textarea{
+width:423px;
+height:80px;
+margin-left:20px;
+margin-bottom:6px;
+}
+#middle .first{
+margin-left:20px;
+}
+#middle input{
+margin-left:8px;
+margin-bottom:20px;
+}
+#middle .knopka{
+cursor:pointer;
+color:#fff;
+border:none;
+outline:none;
+ padding:3px 12px;
+ background:linear-gradient(#5cb3e9,#3789b9);
+ }
+ #bottom{
+padding-top:40px;
+ background-color:#fff;
+width:470px;
+margin-left:15px;
+ }
+ #bottom  #text1{
+ font-size:110%;
+ margin-left:20px;
+ float:left;
+ padding-right:100px;
+ border-right:1px solid #e9e9e9;
+ }
+ #bottom  #text1 a{
+ text-decoration:none;
+ color:#2785bb;
+ }
+ #bottom #ull1 ul{
+
+ margin:0px;
+ padding:0px;
+ }
+  
+ #bottom #ull1{
+  padding-bottom:20px;
+ float:right;
+ margin-right:20px;
+ }
+ #bottom #ull1 li{
+ list-style:none; 
+ padding:2px;
+ }
+ #bottom #ull1 a{
+ color:#000;
+ text-decoration:none;
+ }
+  #bottom #ull1 img{
+  padding-right:10px;
+  }
+  
+  #radio div{
+float:right;
+
+  }
+  #radio{
+  width:315px;
+  padding:20px 0px;
+  }
+  #radio div input{
+  width:25px;
+  height:25px;
+  
+  }
+ 
+#radio button{
+margin-left:15px;
+background:linear-gradient(#5cb3e9,#3789b9);
+color:#fff;
+border:none;
+outline:none;
+cursor:pointer;
+padding:5px;
+}  

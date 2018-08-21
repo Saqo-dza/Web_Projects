@@ -1,0 +1,159 @@
+body{
+	font-family:arial;
+	background-color:#20272d;
+	color:#fff;
+}
+header{
+	background-color:#323c46;
+	  display: flex; 
+      flex-flow: row wrap;
+	  justify-content: space-between;
+	  
+}
+header div{
+	margin:10px 20px;
+	
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+#b{
+	width:100%;
+	border-bottom: 1px dashed #000;
+	margin:0px 20px 10px 20px;
+}
+#s1{
+	display: flex; 
+      flex-flow: row wrap;
+	  justify-content: center;
+      margin:20px;
+	font-size:120%;
+	text-align:center;
+}
+.p2{
+	margin:10px;
+	font-size:150%;
+}
+#s2{
+	display: flex; 
+      flex-flow: row wrap;
+	  justify-content: space-between;
+}
+#s2 div{
+	box-shadow:-2px 5px 20px #000;
+	text-shadow:  2px 2px 4px #000;
+	font-size:120%;
+	font-weight:bold;
+	display: flex; 
+	margin:30px 20px;
+	width:200px;
+	height:200px;
+	border-radius:5px;
+	border: 1px solid #4b5056;
+	position:relative;
+	transition:0.5s;
+} 
+#s2 div:hover{
+	height:215px;
+	text-shadow:  2px 2px 4px #929191;
+	box-shadow:-12px 35px 27px #000;
+	top:5px;
+	left:3px;
+}
+
+.d1 a{
+	padding: 91px 71px;
+}
+.d2 a{
+	padding: 91px 66px;
+}
+.d3 a{
+	padding: 91px 63px;
+}
+.d4 a{
+	padding: 91px 59px;	
+}
+.d5 a{
+	padding: 91px 76px;
+}
+ 
+.d1{
+	background: linear-gradient(#2a4143,#131e1f);
+}
+.d2{
+	background: linear-gradient(#608f7d,#20302a);
+}
+.d3{
+	background: linear-gradient(#0d0f12,#1e242b);
+}
+.d4{
+	background: linear-gradient(#c3cfac,#647b45);
+}
+.d5{
+	background: linear-gradient(#ebecc6,#cfd37b);
+}
+#s3{
+	margin:10px;
+	display: flex; 
+	 flex-flow: row wrap;
+	  justify-content: space-between;
+}
+#s3 li{
+	border-radius:7px;
+	text-align:center;
+	background: linear-gradient(#608f7d,#20302a);
+	margin:8px 10px;
+	list-style:none;
+	display: flex; 
+	flex-flow: row wrap;
+	  justify-content: center;
+}
+#s3 li :hover{
+	background: linear-gradient(#2b333d,#161b20);
+	text-shadow:  2px 2px 4px #929191;
+	border-radius: 6px;
+}
+
+.a1{
+	padding:10px 95px;
+	margin:auto;
+	
+}
+.a2{
+	padding:10px 60px;
+	margin:auto;
+}
+.a3{
+	padding:10px 83px;
+	margin:auto;
+}
+.a4{
+	padding:10px 99px;
+	margin:auto;
+}
+#blog2{
+	width:65%;
+	display: flex; 
+	 flex-flow: row wrap;
+	  justify-content: space-between;
+}
+#blog2 div{
+	margin:10px;
+	
+}
+#blog2 img{
+	border-radius:15px;
+}
+footer{
+	background-color:#323c46;
+	display: flex; 
+	 flex-flow: row wrap;
+	  justify-content: center;
+	  margin:30px 0;
+}
+#s{
+	text-align:center;
+	margin:30px;
+	cursor:pointer;
+}

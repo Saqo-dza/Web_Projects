@@ -1,0 +1,126 @@
+body{
+	margin:0;
+	background-color:#efefef;
+}
+.clear{
+	clear:both;
+}
+header {
+	
+	display:inline-block;
+	width:100%;
+}
+
+.left{
+	float:left;
+	font-size:120%;
+	
+}
+.left p{
+	
+	margin-left: 15px;
+}
+.call{
+	    margin-top: 5px;
+}
+.left{
+	margin:5px 10px;
+}
+h1{
+	font-size:180%;
+}
+h1 a{
+	text-decoration:none;
+	color:#000;
+}
+h1 a:hover{
+	text-decoration:underline;
+	color:#8c7d7d;
+}
+.right{
+	float:right;
+}
+#content img{
+	width:100%;
+	
+}
+#content2 div{
+	margin:50px;;
+	
+}
+#content2{
+	display:block;
+	width:900px;
+	margin:auto;
+	text-align: center;
+}
+#content2 img:hover{
+	cursor:pointer;
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
+h2{
+	text-align: center;
+}
+ .footer{
+	 text-align: center;
+	 
+ }
+ @media screen and (min-width:620px) and (max-width:900px){
+	 
+#content2 div{
+margin:3px;
+	
+}
+#content2{
+width:610px;
+	
+}
+.sel{
+	width:35%;
+	font-size:100%;
+}
+	.call{
+		font-size:100%;
+	} 
+	h1{
+		font-size:135%;
+	}
+ }
+ @media screen and (max-width:620px){
+#content2 div{
+margin:3px;
+	
+}
+#content2{
+width:100%;
+	
+}
+#content2 img{
+width:40%;
+	
+}
+.left{
+	float:none;
+}
+.sel{
+	float:left;
+	width:35%;
+	font-size:100%;
+}
+.call{
+	
+	width:53%;
+}
+.call p{
+	font-size:90%;
+	width:53%;
+}
+h1{
+	float:left;
+	font-size:100%;
+}
+	.img1{
+		float:left;
+	}
+ }

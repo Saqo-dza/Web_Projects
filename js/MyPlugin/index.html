@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>my plugin</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js1.js"></script>
+  <script type="text/javascript" src="load.js"></script>
+</head>
+  <body>
+  
+<table>
+<tr><th colspan="2">block</th></tr>
+
+	<tr>
+	  <td >height</td>
+	  <td><input type="range" value="30" oninput="myFunction()" ></td>
+	</tr>
+	<tr>
+	  <td>width</td>
+	  <td><input type="range" value="25" oninput="myFunction1()" ></td>
+	</tr>
+	
+ <tr><th colspan="2">border</th></tr>
+	<tr>
+	  <td>height</td>
+	  <td><input type="range" value="1" oninput="myFunction2()"</td>
+	</tr>
+	<tr>
+	  <td>style</td>
+	  <td>solid<input type="radio" value="1" name="anun"  checked="checked" onclick ="onclickRadio()">
+	  dashed<input type="radio" value="2" name="anun"  onclick ="onclickRadio()">
+	  dotted<input type="radio" value="3" name="anun" onclick ="onclickRadio()">
+	  </td>
+	</tr>
+	<tr>
+	  <td>radius</td>
+	  <td><input type="range" value="0" oninput="myFunction4()"></td>
+	</tr>
+	<tr>
+	  <td>color</td>
+	  <td> <input type="color" value="#a0a99a" >&nbsp;<button type="button" onclick="myf5()" id="in">select</button></td>
+	</tr>
+<tr><th colspan="2">img</th></tr>
+	<tr>
+	  <td>height</td>
+	  <td><input type="range"  oninput="imgh()" value="10"></td>
+	</tr>
+	<tr>
+	  <td>width</td>
+	  <td><input type="range"  oninput="imgw()" value="10"></td>
+	</tr>
+<tr><th colspan="2">text</th></tr>
+    <tr>
+	  <td>input text</td>
+	  <td><input type="text" name="text" onkeyup="f1()" placeholder="First load image"></td>
+	</tr>
+	<tr>
+	  <td>font-size</td>
+	  <td><input type="range"  oninput="textf()" value="60"></td>
+	</tr>
+	<tr>
+	  <td>font-family</td>
+	  <td> Arial<input type="radio" value="1" name="a" onclick="click1()" >
+	  sans-serif<input type="radio" value="2" name="a" onclick="click1()" ></td>
+	</tr>
+	<tr>
+	  <td>color</td>
+	  <td><input type="color" value="#ff0000" >&nbsp;<button type="button" onclick="textcolor()">select</button></td>
+	</tr>
+<tr><th colspan="2" style="color:red;margin:0px;">Reset</th></tr>	
+	<tr>
+	  <td colspan="2" ><a href="index.html"><button type="button" style="width:140px;">Reset</button></a></td>
+	</tr>
+  </table> 
+	
+	 <div id="view">
+	  <p style="color:red;font-size:120%;" id="t">First load image</p>
+	  
+	   
+			
+			<form enctype="multipart/form-data" action="#" method="POST">
+				<!--  MAX_FILE_SIZE  -->
+				<input type="hidden" name="MAX_FILE_SIZE" value="5000000" >
+				
+				<input name="userfile" type="file" id="inputFileToLoad" >
+				<input type="button" value="Load Selected File" id = "loadImageFileAsURL">
+				<div id="loaded"></div>
+			</form>
+
+			
+	  </div>
+  </body>
+</html>
